@@ -2,7 +2,7 @@
 pip install mysql-connector-python pandas
 import pandas as pd
 from sqlalchemy import create_engine
-engine = create_engine("mysql+pymysql://root:Universal12#@localhost/Painting")
+engine = create_engine("mysql+pymysql://root:password#@localhost/Painting")
 
 ######## create a list of files ######
 
